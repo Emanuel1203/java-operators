@@ -1,0 +1,33 @@
+let a=20
+let b=4
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a/b)
+
+let num=11;
+let str="11";
+let str2="eleven"
+let isPresent= true;
+let firstName = "Frodo";
+let lastName = "Baggins";
+console.log(num + str)
+console.log(num + str2)
+console.log(num + isPresent)
+console.log(firstName + num)
+console.log( isPresent + str)
+console.log(firstName + lastName)
+
+let val = 5;
+let str = "5";
+let str2 = "five";
+let isPresent = false;
+console.log(val == str)
+console.log(val === str)
+console.log( !isPresent)
+console.log(“eleven” == str2 && val >= str)
+console.log(!isPresent || isPresent)
+console.log(0 == false)
+console.log(0 === false)
+console.log( 0 != false)
+console.log(0 !== false)
